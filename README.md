@@ -5,7 +5,7 @@ This repository implements an end-to-end AI/ML pipeline for detecting, tracking,
 
 # Key Features:-
 
-1. Object Detection & Tracking: Detects players, referees, and footballs using YOL) (tracks them across frames).
+1. Object Detection & Tracking: Detects players, referees, and footballs using YOLO) (tracks them across frames).
 2. Team Assignment: Segments and clusters jersey colors with KMeans to assign players to their respective teams.
 3. Ball Acquisition Percentage: Computes the proportion of time each team possesses the ball.
 4. Optical Flow for Camera Compensation: Measures camera movement between frames to isolate true player motion.
