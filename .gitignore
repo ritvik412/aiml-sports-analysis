@@ -2,3 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+git add .gitignore
+git commit -m "Add .gitignore to exclude Python cache files"
+
+git rm -r --cached */__pycache__  # Removes all tracked __pycache__ dirs
+git rm --cached *.pyc             # Removes tracked .pyc files
+git commit -m "Remove existing Python cache files"
