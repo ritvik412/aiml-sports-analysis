@@ -17,10 +17,10 @@ This repository implements an end-to-end Computer Vision driven AI/ML pipeline f
 
 ## 🛠️ Tech Stack
 
-| Layer           | Technologies & Tools                                                                                                       |
+| Layer           | Technologies & Tools                                                                                                     |
 |-----------------|----------------------------------------------------------                                                                |
 | **Backend**     | Python 3.11.3                                                                                                            |
-|                 | [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)                                                           |
+|                 | [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)(Use YOLOv8 for models)                                    |
 |                 | [OpenCV](https://opencv.org/)                                                                                            |
 |                 | [Supervision](https://github.com/roboflow/supervision)                                                                   |
 |                 | RoboFlow API                                                                                          |                                         
