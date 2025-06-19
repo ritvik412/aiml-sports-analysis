@@ -54,14 +54,16 @@ This repository implements an end-to-end Computer Vision driven AI/ML pipeline f
 
 ## 📝 Use Cases:
 1. **Performance Analytics & Coaching Insights**
-•Player Workload Tracking: Automatically compute distance covered and speed profiles for each player to spot fatigue patterns or injury risk.
+   
+   •Player Workload Tracking: Automatically compute distance covered and speed profiles for each player to spot fatigue patterns or injury risk.
 
-•Tactical Breakdown: Visualize ball‑possession heatmaps and passing lanes in a top‑down view, helping coaches adapt formations and strategies mid‑match.
+   •Tactical Breakdown: Visualize ball‑possession heatmaps and passing lanes in a top‑down view, helping coaches adapt formations and strategies mid‑match.
 
 2. **Automated Broadcast Augmentation**
-•Live Graphics Overlays: Integrate your YOLO‑based detection and tracking into live streams to display real‑time IDs, jersey colors, and speed metrics on screen.
+   
+   •Live Graphics Overlays: Integrate your YOLO‑based detection and tracking into live streams to display real‑time IDs, jersey colors, and speed metrics on screen.
 
-•Instant Replays with Metrics: Auto‑generate video clips tagged with possession percentages or sprint speeds for in‑broadcast replays.
+   •Instant Replays with Metrics: Auto‑generate video clips tagged with possession percentages or sprint speeds for in‑broadcast replays.
 
 ## 📄 License
 This project is licensed under the MIT License. See LICENSE for details.
