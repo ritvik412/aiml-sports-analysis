@@ -5,7 +5,7 @@
 
 This repository implements an end-to-end Computer Vision driven AI/ML pipeline for detecting, tracking, and analyzing football players, referees, and the ball in match footage. Leveraging state-of-the-art object detection (YOLO), clustering (KMeans), optical flow, and perspective transformation, the system quantifies key performance metrics—such as ball acquisition percentage, player movement (in meters), speed, and distance covered—making it valuable for both beginners and experienced machine learning engineers.
 
-## 📖 Project Overview:-
+## 📖 Project Overview:
 
 1. Object Detection & Tracking: Detects players, referees, and footballs using YOLO (tracks them across frames).
 2. Team Assignment: Segments and clusters jersey colors with KMeans to assign players to their respective teams.
@@ -15,7 +15,7 @@ This repository implements an end-to-end Computer Vision driven AI/ML pipeline f
 6. Speed & Distance Calculation: Derives player speed and total distance covered using transformed coordinates.
 
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack:
 
 | Layer           | Technologies & Tools                                                                                                     |
 |-----------------|----------------------------------------------------------                                                                |
@@ -35,7 +35,7 @@ This repository implements an end-to-end Computer Vision driven AI/ML pipeline f
 | **Dev Tools**   | Git, Visual Studio Code                                                                                                  |
 
 
-## 🚀 Setup Guide
+## 🚀 Setup Guide:
 
 1. **Clone the repo**  
    ```bash
@@ -52,6 +52,16 @@ This repository implements an end-to-end Computer Vision driven AI/ML pipeline f
 4.   **Sample Input Video**
      [input video](08fd33_4.mp4)
 
+## 📝 Use Cases:
+1. **Performance Analytics & Coaching Insights**
+•Player Workload Tracking: Automatically compute distance covered and speed profiles for each player to spot fatigue patterns or injury risk.
+
+•Tactical Breakdown: Visualize ball‑possession heatmaps and passing lanes in a top‑down view, helping coaches adapt formations and strategies mid‑match.
+
+2. **Automated Broadcast Augmentation**
+•Live Graphics Overlays: Integrate your YOLO‑based detection and tracking into live streams to display real‑time IDs, jersey colors, and speed metrics on screen.
+
+•Instant Replays with Metrics: Auto‑generate video clips tagged with possession percentages or sprint speeds for in‑broadcast replays.
 
 ## 📄 License
 This project is licensed under the MIT License. See LICENSE for details.
