@@ -28,7 +28,7 @@ This repository implements an end-to-end Computer Vision driven AI/ML pipeline f
 |                 | • `team_assigner/`, `player_ball_assigner/`                                                                              |
 |                 | • `camera_movement_estimator/`, `view_transformer/`                                                                      |
 |                 | • `speed_and_distance_estimator/`                                                                                        |
-| **Data & I/O**  | [Roboflow](https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1) for annotation export|
+| **Data & I/O**  | [Roboflow](https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1)(Use YOLOv5)|
 |                 | NumPy, Pandas                                                                                                            |
 |**Visualization**| Matplotlib, scikit‑learn (K‑Means)                                                                                       |
 | **Notebook**    | Jupyter Notebook                                                                                                         |
