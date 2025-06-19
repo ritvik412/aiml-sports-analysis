@@ -3,7 +3,7 @@
 
 ![plot](Untitled+video+-+Made+with+Clipchamp.gif)
 
-This repository implements an end-to-end AI/ML pipeline for detecting, tracking, and analyzing football players, referees, and the ball in match footage. Leveraging state-of-the-art object detection (YOLO), clustering (KMeans), optical flow, and perspective transformation, the system quantifies key performance metrics—such as ball acquisition percentage, player movement (in meters), speed, and distance covered—making it valuable for both beginners and experienced machine learning engineers.
+This repository implements an end-to-end Computer Vision driven AI/ML pipeline for detecting, tracking, and analyzing football players, referees, and the ball in match footage. Leveraging state-of-the-art object detection (YOLO), clustering (KMeans), optical flow, and perspective transformation, the system quantifies key performance metrics—such as ball acquisition percentage, player movement (in meters), speed, and distance covered—making it valuable for both beginners and experienced machine learning engineers.
 
 ## 📖 Project Overview:-
 
@@ -35,9 +35,21 @@ This repository implements an end-to-end AI/ML pipeline for detecting, tracking,
 | **Dev Tools**   | Git, Visual Studio Code                                                                                                  |
 
 
+## 🚀 Setup Guide
 
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/ritvik412/aiml-sports-analysis.git
+   cd aiml-sports-analysis
 
+2. **Create and Activate a virtual Environment**
+   ```bash
+     python3 -m venv venv
+     source venv/bin/activate   # macOS/Linux
+     venv\Scripts\activate      # Windows
+
+3. **Install Dependencies & Get your RoboFlow API key**
 
 
 ## 📄 License
-This project is licensed under the MIT License. See (https://github.com/ritvik412/aiml-sports-analysis/blob/8ff2c984fc453e6f0b52ecb347c8aecd4b7ff4a3/LICENSE) for details.
+This project is licensed under the MIT License. See LICENSE for details.
