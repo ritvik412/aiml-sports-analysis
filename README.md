@@ -49,6 +49,8 @@ This repository implements an end-to-end Computer Vision driven AI/ML pipeline f
      venv\Scripts\activate      # Windows
 
 3. **Install Dependencies & Get your RoboFlow API key**
+4.   **Sample Input Video**
+     [input video](https://drive.google.com/file/d/1t6agoqggZKx6thamUuPAIdN_1zR9v9S_/view?usp=sharing)
 
 
 ## 📄 License
