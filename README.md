@@ -17,22 +17,22 @@ This repository implements an end-to-end AI/ML pipeline for detecting, tracking,
 
 ## 🛠️ Tech Stack
 
-| Layer           | Technologies & Tools                                           |
-|-----------------|----------------------------------------------------------      |
-| **Backend**     | Python 3.x                                                     |
-|                 | [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) |
-|                 | [OpenCV](https://opencv.org/)                                  |
-|                 | [Supervision](https://github.com/roboflow/supervision)         |
-|                 | RoboFlow API                                                   |                                         
-| **Modules**     | • `trackers/` (ByteTrack integration)                          |
-|                 | • `team_assigner/`, `player_ball_assigner/`                    |
-|                 | • `camera_movement_estimator/`, `view_transformer/`            |
-|                 | • `speed_and_distance_estimator/`                              |
-| **Data & I/O**  | [Roboflow](https://roboflow.com/) for annotation export        |
-|                 | NumPy, Pandas                                                  |
-|**Visualization**| Matplotlib,scikit‑learn (K‑Means)                              |
-| **Notebook**    | Jupyter Notebook                                               |
-| **Dev Tools**   | Git, VS Code                                                   |
+| Layer           | Technologies & Tools                                                                                                       |
+|-----------------|----------------------------------------------------------                                                                |
+| **Backend**     | Python 3.11.3                                                                                                            |
+|                 | [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)                                                           |
+|                 | [OpenCV](https://opencv.org/)                                                                                            |
+|                 | [Supervision](https://github.com/roboflow/supervision)                                                                   |
+|                 | RoboFlow API                                                                                          |                                         
+| **Modules**     | • `trackers/` (ByteTrack integration)                                                                                    |
+|                 | • `team_assigner/`, `player_ball_assigner/`                                                                              |
+|                 | • `camera_movement_estimator/`, `view_transformer/`                                                                      |
+|                 | • `speed_and_distance_estimator/`                                                                                        |
+| **Data & I/O**  | [Roboflow](https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1) for annotation export|
+|                 | NumPy, Pandas                                                                                                            |
+|**Visualization**| Matplotlib, scikit‑learn (K‑Means)                                                                                       |
+| **Notebook**    | Jupyter Notebook                                                                                                         |
+| **Dev Tools**   | Git, Visual Studio Code                                                                                                  |
 
 
 
@@ -40,4 +40,4 @@ This repository implements an end-to-end AI/ML pipeline for detecting, tracking,
 
 
 ## 📄 License
-This project is licensed under the MIT License. See LICENSE for details.
+This project is licensed under the MIT License. See (https://github.com/ritvik412/aiml-sports-analysis/blob/8ff2c984fc453e6f0b52ecb347c8aecd4b7ff4a3/LICENSE) for details.
