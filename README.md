@@ -1,7 +1,8 @@
 # aiml-sports-analysis
 # AI/ML Football Analysis System ⚽🚀
 
-![plot](Untitled+video+-+Made+with+Clipchamp.gif)
+<img src="Output_video.gif" width="600" alt="Game plot animation"/>
+
 
 This repository implements an end-to-end Computer Vision driven AI/ML pipeline for detecting, tracking, and analyzing football players, referees, and the ball in match footage. Leveraging state-of-the-art object detection (YOLO), clustering (KMeans), optical flow, and perspective transformation, the system quantifies key performance metrics—such as ball acquisition percentage, player movement (in meters), speed, and distance covered—making it valuable for both beginners and experienced machine learning engineers.
 
